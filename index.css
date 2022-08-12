@@ -150,7 +150,7 @@ img {
     color: #425358;
 }
 
-.main {
+.main-head {
     flex-basis: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -226,6 +226,7 @@ img {
 
 .main-head-link a {
     color: #263238;
+    text-decoration: none;
 }
 
 .link-img {
@@ -233,4 +234,165 @@ img {
     height: 18px; 
     margin-top: auto;
     margin-bottom: auto; 
+}
+
+.main-trigger {
+    flex-basis: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    
+}
+
+.trigger-container {
+    width: 90%;
+    display: flex;
+}
+
+.trigger-1 {
+    flex: 1;
+    
+}
+
+.trigger-2 {
+    flex: 1.1;
+}
+
+.trigger-3 {
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.trigger-1-name {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.03em;
+    color: #263238;
+
+}
+
+.trigger-1-description {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 88px;
+    /* or 183% */
+    letter-spacing: 0.03em;
+    color: #263238;
+}
+
+.trigger-stars {
+    /* width: 186px;
+    height: 270px; */
+    position: relative;
+    top: 90px;
+    left: 250px;
+    z-index: 1;
+}
+
+.trigger-rocket {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    left: 130px;
+    bottom: 110px;
+    z-index: 2;
+    
+}
+
+.trigger-3-description {
+    margin-top: auto;
+    margin-bottom: 235px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    letter-spacing: 0.03em;
+    color: #263238;
+}
+
+.main-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -165px;
+    margin-bottom: 280px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+
+.main-card div {
+    width: 450px;
+    height: 330px;
+    background: #F7E2C0;
+    border: 1px solid #EBB762;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.main-card img {
+    margin-top: 19px;
+    margin-left: 34px;
+}
+
+.main-card h3 {
+    margin-top: 69px;
+    margin-left: 34px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 30px;
+    /* or 31% */
+    letter-spacing: 0.03em;
+    color: #263238;
+}
+
+.main-card p {
+    margin-top: 54px;
+    margin-left: 34px;
+    width: 299px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    letter-spacing: 0.03em;
+    color: #263238;
+}
+
+.card-round {
+    width: 222px;
+    height: 262px;
+    position: relative;
+    top: -290px;
+    left: 210px;
+}
+
+.main-points {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.main-grid {
+    display: grid;
+    gap: 20px;
 }
