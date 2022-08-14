@@ -389,10 +389,226 @@ img {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 218px;
     justify-content: space-between;
+}
+
+.points-name {
+    width: 563px;
+}
+
+.points-img {
+    margin-top: 82px;
+}
+
+.points-name h2 {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 88px;
+    /* or 138% */
+    letter-spacing: 0.03em;
+    color: #263238;
+}
+
+.point-name-bold {
+    font-family: 'KoHo';
+    font-weight: 500;
+
 }
 
 .main-grid {
     display: grid;
-    gap: 20px;
+    gap: 82px;
+    grid-template-columns: 226px 226px;
+}
+
+.main-grid div {
+    width: 256px;
+}
+
+.main-grid img {
+    width: 38px;
+    height: 38px;
+}
+
+.main-grid h4 {
+    margin-top: 45px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    letter-spacing: 0.03em;
+    color: #263238;
+}
+
+.main-grid p {
+    margin-top: 32px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    letter-spacing: 0.03em;
+    color: #263238;
+}
+
+.main-partners {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.partners-title {
+    margin-bottom: 82px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #263238;
+}
+
+.partners-description {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 112px;
+    width: 75%;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #263238;
+}
+
+.logos {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 125px;
+}
+
+.main-end {
+    /* height: 627px; */
+    background-color: rgba(235, 183, 98, 0.1);
+    border-top: 1px solid rgba(235, 183, 98, 1);
+    border-bottom: 1px solid rgba(235, 183, 98, 1);
+}
+
+.main-end-title {
+    margin-bottom: 53px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 88px;
+    letter-spacing: 0.03em;
+    color: #263238;
+    text-align: center;
+}
+
+.button-end {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.callback-end {
+    text-decoration: none;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.01em;
+    color: #263238;
+    background-color: rgba(235, 183, 98, 0.6);
+    border-radius: 7px 16px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.main-end-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 70%;
+}
+
+.main-end-img-2 {
+    position: relative;
+    margin-left: 51px;
+    margin-bottom: 78px;
+    z-index: 2;
+}
+
+.main-end-img-3 {
+    position: relative;
+    margin-left: -56px;
+    margin-bottom: 215px;
+    z-index: 1;
+}
+
+.footer {
+    height: 100%;
+    background-color: rgba(235, 183, 98, 1);
+}
+
+.navbar-footer {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+
+}
+
+.container-footer {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu img {
+    width: 18px;
+    height: 18px;
+}
+
+.navbar-athor {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #263238;
+}
+
+.container-footer-2 {
+    margin-top: 111px;
+    margin-bottom: 25px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
