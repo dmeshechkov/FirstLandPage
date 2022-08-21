@@ -8,9 +8,10 @@ html {
 }
   
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-weight: normal;
+    
 }
   
 ol, ul {
@@ -24,6 +25,7 @@ img {
 
 .block-head {
     width: 100%;
+    
     height: 739px;
     background-color: rgba(235, 183, 98, 0.1);
 }
@@ -40,6 +42,12 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1410px;
+}
+
+.container {
+    
 }
 
 .navbar-menu {
@@ -111,6 +119,7 @@ img {
 .container {
     width: 90%;
     height: 100%;
+    max-width: 1410px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -151,6 +160,7 @@ img {
 }
 
 .main-head {
+    max-width: 1410px;
     flex-basis: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -237,6 +247,7 @@ img {
 }
 
 .main-trigger {
+    max-width: 1410px;
     flex-basis: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -250,6 +261,7 @@ img {
 
 .trigger-container {
     width: 90%;
+    max-width: 1410px;
     display: flex;
 }
 
@@ -293,8 +305,6 @@ img {
 }
 
 .trigger-stars {
-    /* width: 186px;
-    height: 270px; */
     position: relative;
     top: 90px;
     left: 250px;
@@ -325,6 +335,7 @@ img {
 }
 
 .main-card {
+    max-width: 1410px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -165px;
@@ -387,6 +398,7 @@ img {
 .main-points {
     display: flex;
     width: 90%;
+    max-width: 1410px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 218px;
@@ -459,6 +471,7 @@ img {
 
 .main-partners {
     width: 70%;
+    max-width: 1410px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -576,6 +589,7 @@ img {
 .navbar-footer {
     width: 90%;
     height: 100%;
+    max-width: 1410px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 75px;
@@ -606,9 +620,12 @@ img {
 
 .container-footer-2 {
     margin-top: 111px;
-    margin-bottom: 25px;
     height: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.navbar-wrap {
+    margin-bottom: 25px;
 }
